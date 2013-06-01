@@ -33,6 +33,7 @@ $beige: #E9DCB6;
     margin: 0 -21px;
     @include pad(20px);
     color: white;
+    text-shadow: 0 -1px 0 blend-multiply($dark-brown, $dark-brown);
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     border: 1px solid $dark-brown;

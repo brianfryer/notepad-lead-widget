@@ -1282,6 +1282,7 @@ ul.icons-ul > li .icon-li {
     margin: 0 -21px;
     padding: 20px;
     color: white;
+    text-shadow: 0 -1px 0 #170b05;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     border: 1px solid #4e3624;
