@@ -49,6 +49,12 @@ $pink: tint(blend-overlay($yellow, $red), 65%);
       color: $light-brown;
       font-size: 80%;
     }
+    &.pdf-icon {
+      padding-right: 80px;
+      background-image: url('../assets/pdf-icon.png');
+      background-repeat: no-repeat;
+      background-position: 272px 20px;
+    }
   }
   > .textwidget {
     @include pad(20px 0 20px 20px);

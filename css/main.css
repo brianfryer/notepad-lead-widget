@@ -1298,6 +1298,11 @@ ul.icons-ul > li .icon-li {
       margin-top: 4px;
       color: #dbc289;
       font-size: 80%; }
+    .widget__notepad-lead-form > h3.pdf-icon {
+      padding-right: 80px;
+      background-image: url("../assets/pdf-icon.png");
+      background-repeat: no-repeat;
+      background-position: 272px 20px; }
   .widget__notepad-lead-form > .textwidget {
     padding: 20px 0 20px 20px;
     border-left: 3px double #ffa5b2; }
