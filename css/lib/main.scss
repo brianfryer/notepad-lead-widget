@@ -50,10 +50,10 @@ $pink: tint(blend-overlay($yellow, $red), 65%);
       font-size: 80%;
     }
     &.pdf-icon {
-      padding-right: 80px;
+      padding-left: 80px;
       background-image: url('../assets/pdf-icon.png');
       background-repeat: no-repeat;
-      background-position: 272px 20px;
+      background-position: 12px 20px;
     }
   }
   > .textwidget {
