@@ -1324,11 +1324,11 @@ ul.icons-ul > li .icon-li {
     float: right;
     margin-top: 10px;
     padding-left: 8px;
-    font-size: 80%; }
+    font-size: 80%;
+    white-space: nowrap; }
     .widget__notepad-lead-form .label:last-child {
       margin-right: 0; }
-  .widget__notepad-lead-form .text-field,
-  .widget__notepad-lead-form .drop-down {
+  .widget__notepad-lead-form .text-field {
     display: block;
     float: left;
     margin-right: 2.35765%;
@@ -1337,8 +1337,7 @@ ul.icons-ul > li .icon-li {
     font-size: 100%;
     border-radius: 3px;
     border: 1px solid #dbc289; }
-    .widget__notepad-lead-form .text-field:last-child,
-    .widget__notepad-lead-form .drop-down:last-child {
+    .widget__notepad-lead-form .text-field:last-child {
       margin-right: 0; }
   .widget__notepad-lead-form .text-field {
     border: 1px solid #dbc289; }
@@ -1366,3 +1365,18 @@ ul.icons-ul > li .icon-li {
   .widget__notepad-lead-form ::-moz-placeholder,
   .widget__notepad-lead-form :-ms-input-placeholder {
     color: #dbc289; }
+  .widget__notepad-lead-form .LV_validation_message {
+    display: block;
+    clear: both;
+    padding-top: 4px;
+    font-size: 80%;
+    font-weight: bold; }
+  .widget__notepad-lead-form .LV_valid {
+    display: none; }
+  .widget__notepad-lead-form .LV_invalid {
+    color: #9c0018; }
+  .widget__notepad-lead-form .LV_invalid_field {
+    border-color: #be5968 !important;
+    background-color: #ebccd0; }
+  .widget__notepad-lead-form .LV_valid_field {
+    border-color: #59ac59 !important; }
